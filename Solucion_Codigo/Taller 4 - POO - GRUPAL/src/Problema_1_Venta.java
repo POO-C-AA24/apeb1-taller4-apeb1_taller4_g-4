@@ -1,4 +1,4 @@
-public class Prob1_Venta {
+public class Problema_1_Venta {
     public double precioProducto;
     public int numProducto;
     public double calcularDescuento;
@@ -31,6 +31,4 @@ public class Prob1_Venta {
     public String toString() {
         return "Prob1_Venta{" + "Precio del Producto sin descuento: " + precioProducto + ", Numero de Productos:" + numProducto + ", Descuento obtenido: " + calcularDescuento + ", Precio que debe pagar: " + precioFinal + '}';
     }
-    
-
 }
