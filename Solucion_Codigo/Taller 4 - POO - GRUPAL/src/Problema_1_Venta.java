@@ -7,10 +7,10 @@ public class Problema_1_Venta {
     public void setPrecioProducto(double precioProducto) {
         this.precioProducto = precioProducto;
     }
-
     public void setNumProducto(int numProducto) {
         this.numProducto = numProducto;
     }
+    
     public double calcularDescuento(double precioProducto, int numProducto){
         this.precioProducto = precioProducto * numProducto; 
         if (this.precioProducto >= 1000 && numProducto >= 10) {
